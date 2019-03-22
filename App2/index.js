@@ -1,4 +1,4 @@
-const classifier = knnClassifier.create();
+const classifier = tf.sequential();
 let net;
 
 var properties = [
